@@ -1,2 +1,8 @@
-venv/
+yolov5/
+.cometml-runs/
+.ipynb_checkpoints/
+.vscode/
 datasets/
+runs/
+venv/
+yolov5s.pt
