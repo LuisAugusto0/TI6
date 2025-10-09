@@ -1,0 +1,20 @@
+# CSSD dataset - CC BY-NC-SA 4.0 license - https://github.com/Kerio99/CSDD
+
+# Casting superficial defects on steel surfaces for data augmentation in industrial scenarios
+# Example usage: python train.py --data CSDD.yaml
+# parent
+# ├── yolov5
+# └── datasets
+#     └── CSDD_det  ← download here (2.52 GB)
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ../datasets/CSDD_det # dataset root dir
+train: images/train2017/ # train images (relative to 'path') 1.343 images
+val: images/val2017/ # val images (relative to 'path') 335 images
+test: images/test2017/ # test images (optional) 422 images
+
+# Classes
+names:
+  0: scratch
+  1: spot
+  2: rust
