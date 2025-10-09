@@ -12,12 +12,11 @@
    ```bash
    source venv/bin/activate
    ```
-4. Instale os módulos necessários:
+4. Instale os módulos necessários do torch:
    ```bash
-   pip install -r yolov5/requirements.txt
    pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
    ```
-5. Configuração e execução do Jupyter
+5. Instalação, configuração (vinculação do venv ao Jupyter para permitir a execução dos códigos) e execução do Jupyter
   ```bash
    pip install jupyter matplotlib numpy pandas scipy scikit-learn
    pip install ipykernel
@@ -56,7 +55,7 @@
   ```
 - Certifique-se de que os arquivos de imagem e rótulo estão organizados corretamente.
 
-### 4. Execução do Treinamento
+<!-- ### 4. Execução do Treinamento
 1. Navegue até o diretório `yolov5`:
    ```bash
    cd yolov5
@@ -70,6 +69,4 @@
 - Para funcionalidades adicionais, instale os seguintes pacotes:
   - Logging: `tensorboard`, `clearml`
   - Exportação: `onnx`, `tensorflow`, `openvino-dev`
-  - Plotagem: `seaborn`, `pandas`
-
-Consulte o arquivo `requirements.txt` para mais detalhes sobre as dependências.
+  - Plotagem: `seaborn`, `pandas` -->
