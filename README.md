@@ -55,6 +55,23 @@
   ```
 - Certifique-se de que os arquivos de imagem e rótulo estão organizados corretamente.
 
+- Configuração dos arquivos .yaml 
+- Copiar os arquivos .yaml da pasta "custom-yaml" para a pasta data do modelo YOLOv5 seguindo o modelo:
+
+```
+yolov5/
+  data/
+   exemplo.yaml
+```
+
+### 4. Métodos do modelo YOLOv5 Modificados
+- Para utilizar o método modificado "detectBatch.py", deve-se copiá-lo da pasta "YOLOModifications" para a pasta principal do modelo, como no exemplo:
+```
+yolov5/
+  ...
+  detectBatch.py
+```
+
 <!-- ### 4. Execução do Treinamento
 1. Navegue até o diretório `yolov5`:
    ```bash
