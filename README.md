@@ -65,11 +65,11 @@ yolov5/
 ```
 
 ### 4. Métodos do modelo YOLOv5 Modificados
-- Para utilizar o método modificado "detectBatch.py", deve-se copiá-lo da pasta "YOLOModifications" para a pasta principal do modelo, como no exemplo:
+- Para utilizar o método modificado "detectBatchv3.py", deve-se copiá-lo da pasta "YOLOModifications" para a pasta principal do modelo, como no exemplo:
 ```
 yolov5/
   ...
-  detectBatch.py
+  detectBatchv3.py
 ```
 
 <!-- ### 4. Execução do Treinamento
